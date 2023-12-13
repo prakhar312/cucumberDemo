@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-13T09:10:35 IST" name="Suite1" finished-at="2023-12-13T09:12:00 IST" duration-ms="84311">
+    <groups>
+      <group name="Errorhandling">
+        <method signature="ErrorValidtion.ErrorChecking()[pri:0, instance:com.example.ErrorValidtion@4d0d9fe7]" name="ErrorChecking" class="com.example.ErrorValidtion"/>
+      </group> <!-- Errorhandling -->
+      <group name="PurchaseOrder">
+        <method signature="StandAloneTest2.submitOrder(java.util.HashMap)[pri:0, instance:com.example.StandAloneTest2@742ff096]" name="submitOrder" class="com.example.StandAloneTest2"/>
+        <method signature="StandAloneTest2.orderHistory()[pri:0, instance:com.example.StandAloneTest2@742ff096]" name="orderHistory" class="com.example.StandAloneTest2"/>
+      </group> <!-- PurchaseOrder -->
+    </groups>
+    <test started-at="2023-12-13T09:10:35 IST" name="ErrorValidationTest" finished-at="2023-12-13T09:11:34 IST" duration-ms="58432">
+      <class name="com.example.ErrorValidtion">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.example.ErrorValidtion@4d0d9fe7]" started-at="2023-12-13T09:10:36 IST" name="launchApplication" finished-at="2023-12-13T09:11:05 IST" duration-ms="29013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ErrorChecking()[pri:0, instance:com.example.ErrorValidtion@4d0d9fe7]" started-at="2023-12-13T09:11:05 IST" name="ErrorChecking" finished-at="2023-12-13T09:11:08 IST" duration-ms="3417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ErrorChecking -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.example.ErrorValidtion@4d0d9fe7]" started-at="2023-12-13T09:11:08 IST" name="close" finished-at="2023-12-13T09:11:12 IST" duration-ms="3582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.example.ErrorValidtion@4d0d9fe7]" started-at="2023-12-13T09:11:12 IST" name="launchApplication" finished-at="2023-12-13T09:11:29 IST" duration-ms="17574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="ProductErrorValidation()[pri:0, instance:com.example.ErrorValidtion@4d0d9fe7]" started-at="2023-12-13T09:11:29 IST" name="ProductErrorValidation" finished-at="2023-12-13T09:11:33 IST" duration-ms="4023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductErrorValidation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.example.ErrorValidtion@4d0d9fe7]" started-at="2023-12-13T09:11:33 IST" name="close" finished-at="2023-12-13T09:11:34 IST" duration-ms="495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.example.ErrorValidtion -->
+    </test> <!-- ErrorValidationTest -->
+    <test started-at="2023-12-13T09:10:35 IST" name="DataTest" finished-at="2023-12-13T09:12:00 IST" duration-ms="84311">
+      <class name="com.example.StandAloneTest2">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:10:38 IST" name="launchApplication" finished-at="2023-12-13T09:11:05 IST" duration-ms="26199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:11:05 IST" name="submitOrder" data-provider="getData" finished-at="2023-12-13T09:11:13 IST" duration-ms="8770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Alohomora@312, product=IPHONE 13 PRO, email=rahul312@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:11:13 IST" name="close" finished-at="2023-12-13T09:11:34 IST" duration-ms="20614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:11:34 IST" name="launchApplication" finished-at="2023-12-13T09:11:44 IST" duration-ms="9691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:11:44 IST" name="submitOrder" data-provider="getData" finished-at="2023-12-13T09:11:49 IST" duration-ms="5246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Rohit@312, product=ADIDAS ORIGINAL, email=rohit312@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:11:49 IST" name="close" finished-at="2023-12-13T09:11:51 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:11:51 IST" name="launchApplication" finished-at="2023-12-13T09:11:57 IST" duration-ms="6022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistory()[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:11:57 IST" name="orderHistory" finished-at="2023-12-13T09:11:59 IST" depends-on-methods="com.example.StandAloneTest2.submitOrder" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistory -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.example.StandAloneTest2@742ff096]" started-at="2023-12-13T09:11:59 IST" name="close" finished-at="2023-12-13T09:12:00 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.example.StandAloneTest2 -->
+    </test> <!-- DataTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
